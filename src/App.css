@@ -1,0 +1,35 @@
+#app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#graph-display {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#graph-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#graph-width {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: calc(100vh - 50px);
+
+}
+
+.color-cell {
+    flex: 1;
+    aspect-ratio: 1 / 1;
+}
